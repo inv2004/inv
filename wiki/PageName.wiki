@@ -1,4 +1,5 @@
 #summary Examples
+#labels examples
 
 = Introduction =
 _draft_
