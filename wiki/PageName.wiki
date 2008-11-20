@@ -1,0 +1,15 @@
+#summary Examples
+
+= Introduction =
+
+|| Example || Description ||
+|| sum 1 2 || 1 + 2 ||
+|| join1 1,join1 2,join1 3,elist || List [1,2,3] ||
+|| (sum a b*a:1*b:2) || sum a b where a = 1 and b = 2 ||
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
