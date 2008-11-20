@@ -6,7 +6,8 @@ _draft_
 
 || *Example* || *Description* ||
 || sum 1 2 || 1 + 2 ||
-|| sum 1,sum 2 3 || 1 + (2 + 3) ||
+|| sum 1,sum 2 3 || 1 + (2 + 3), the same is: sum 1 (sum 2 3) ||
+|| sum 1,sum 2,sum 3 4 || 1 + (2 + (3 + 4)), the same is: sum 1 (sum 2 (sum 3 4)) ||
 || (a*sum a 1) || function which make a + 1 for (a) parameter ||
 || (f*sum 1,f 2 3) || function with parameter f where f is a function with (num,num) parameters, example of this function is sum, mul, minus, div||
 || elist || empty list [] ||
