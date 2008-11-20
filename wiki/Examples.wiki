@@ -20,6 +20,6 @@ _draft_
 || ... ||
 
 1: num->num->num is a function with two parameters of type num and result num (the last type is sequence), example: sum, mul, minus, divide.<br>
-  example: sum is function of type num->num->num, if we do {{{sum 1}}} is returns function of type num->num, if we add num 2 parameter to function {{{sum 1}}}, the result type is num_
+  example: sum is the function of type num->num->num, if we do {{{sum 1}}} is returns function of type num->num, if we add num 2 parameter to function {{{sum 1}}}, the result type is num_
 
 _draft_
