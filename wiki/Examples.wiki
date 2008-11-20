@@ -11,7 +11,7 @@ _draft_
 || (a*sum a 1) || function which make a + 1 for (a) parameter ||
 || (f*sum 1,f 2 3) || function with parameter f where f is a function with (num,num) parameters, example of this function is sum, mul, minus, div||
 || elist || empty list [] ||
-|| j 1,j 2,j 3,elist || list [1,2,3], join 3 to empty list, result is list [3], join 2 to list [3], result is list [2,3], join 1 to list [2,3], result is [1,2,3] ||
+|| j 1,j 2,j 3,elist || join 3 to empty list, result is list [3], join 2 to list [3], result is list [2,3], join 1 to list [2,3], result is [1,2,3] ||
 || (sum a b*a:1*b:2) || sum a b where a = 1 and b = 2 ||
 || (head l*l:j 3,j 2,j 1,elist) || result is num 3, head value from list ||
 || (tail l*l:j 3,j 2,j 1,elist) || result is list [3,2], tail values from list ||
