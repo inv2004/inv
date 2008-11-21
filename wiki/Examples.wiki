@@ -9,6 +9,7 @@ _draft_
 || sum 1,sum 2 3 || num 6 || 1 + (2 + 3), the same is: sum 1 (sum 2 3) ||
 || sum 1,sum 2,sum 3 4 || num 10 || 1 + (2 + (3 + 4)), the same is: sum 1 (sum 2 (sum 3 4)) ||
 || (a*b*sum a b) || num->num->num^*1^ || function which makes a + b for (a, b) parameters ||
+|| incr 5*incr:sum 1 || num 6 || define function incr, function with num parameter, which returns num of parameter + 1. apply it to 5 ||
 || sum 1 || num->num || function waiting for num parameter to return num result ||
 || (f*sum 1,f 2 3) || (num->num)->num || function with parameter f where f is a function with (num,num) parameters, see *1 ||
 || elist || list [] || empty list ||
