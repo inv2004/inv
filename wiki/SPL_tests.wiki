@@ -1,4 +1,5 @@
 #summary SPL tests which are used in main testing
+#labels examples
 
 = Introduction =
 
