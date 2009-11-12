@@ -2,7 +2,7 @@
 
 = Introduction =
 
-||*input*||*result*||*type*||
+|| *input* || *result* || *type* ||
 ||{{{1}}}||{{{CNum 1}}}||{{{T "num"}}}||
 ||{{{ok:  |err}}}||
 ||{{{12}}}||{{{CNum 12}}}||{{{T "num"}}}||
