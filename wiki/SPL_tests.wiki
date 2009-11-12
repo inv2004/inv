@@ -1,7 +1,8 @@
-#summary SPL Test which are used in main testing
+#summary SPL tests which are used in main testing
 
 = Introduction =
 
+||*input*||*result*||*type*||
 ||{{{1}}}||{{{CNum 1}}}||{{{T "num"}}}||
 ||{{{ok:  |err}}}||
 ||{{{12}}}||{{{CNum 12}}}||{{{T "num"}}}||
