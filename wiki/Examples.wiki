@@ -18,8 +18,8 @@ _draft_
 || (head l*l:j 3,j 2,j 1,elist) (j is join1 now) || num 3 || head value from list [3,2,1]||
 || (tail l*l:j 3,j 2,j 1,elist) (j is join1 now) || list [3,2] || tail values from list [3,2,1] ||
 || pair 1 'one' || pair (1, "num") || pair container for 1 (num) and "one" (string) ||
-|| if (eq x 1) {'one'}#if (eq x 2) {'two'}#'other'*x:3 || 'other' || if 1 equals x then execute lazy expr 'one' else execute next if expr ||
-|| if (eq x 1) {'one'}#if (eq x 2) {'two'} {'other'}*x:3 || ... || ... ||
+|| if (eq x 1) {'one'}#if (eq x 2) {'two'}#'other' *x:3 || 'other' || if 1 equals x then execute lazy expr 'one' else execute next if expr ||
+|| if (eq x 1) {'one'}#if (eq x 2) {'two'} {'other'} *x:3 || ... || !!! there is a star befor x:3  ||
 || ... ||
 
 1: num->num->num is a function with two parameters of type num and result num (the last type is sequence), example: sum, mul, minus, divide.<br>
