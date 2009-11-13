@@ -1,8 +1,6 @@
 #summary SPL main help
 #labels help
 
-= Introduction =
-
 {{{
 help
   interactive commands
