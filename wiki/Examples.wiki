@@ -4,6 +4,8 @@
 = Introduction =
 _draft_
 
+You can find more tests here: http://code.google.com/p/inv/source/browse/#svn/trunk/spl2/spl_tests
+
 || *Example* || *Result* || *Description* ||
 || sum 1 2 || num 3 || 1 + 2 ||
 || sum 1,sum 2 3 || num 6 || 1 + (2 + 3), the same is: sum 1 (sum 2 3) ||
