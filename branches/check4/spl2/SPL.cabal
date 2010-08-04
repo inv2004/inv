@@ -1,0 +1,35 @@
+Name:           SPL
+Version:	0.0.0.784
+License:        LGPL
+Copyright:      (c) 
+Author:         <inv2004@gmail.com>
+Author:         Andy Melnikov <andy.melnikov@gmail.com>
+Maintainer:     Andy Melnikov <andy.melnikov@gmail.com>
+Build-Type:	Custom
+Homepage:	http://code.google.com/p/inv/
+---Package-Url:
+Category:       Compiler
+Stability:      Experimental
+Synopsis:       Functional language with translator into C++ language.
+Description:    SPL is a strictly, statically and implicitly typed functional universal language with translator into C++ language.
+License-File:   COPYING.LESSER
+Build-Depends:  base == 4.*, containers, bytestring, parsec >= 3.1, HUnit, QuickCheck >= 2, haskell98, mtl, uuagc, directory == 1.0.*
+HS-Source-dirs:	.
+cabal-version:  >= 1.6
+
+Executable:     spl-hnc
+Main-Is:        HNC.hs
+Other-modules:	Bar
+
+Executable:	spl-quickcheck
+Main-Is:	QuickCheck.hs
+GHC-Options:	-fwarn-unused-imports -fwarn-unused-binds
+
+Executable:	spli
+Main-Is:	SPLI.hs
+
+Executable:     spl-hn-tests
+Main-Is:        HN_Tests.hs
+
+Executable:	spl-tests
+Main-Is:	SPL_Tests.hs

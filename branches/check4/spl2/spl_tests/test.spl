@@ -1,0 +1,2 @@
+(conf.clients.hosts
+  conf:load 'spl_tests/config.spl')
