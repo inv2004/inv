@@ -1,8 +1,0 @@
-hnMain = {
-	foo = sum 2 3
-	foo = {
-		foo = foo
-		bar
-	}
-	print foo
-}

@@ -1,7 +1,0 @@
-hnMain = {
-	idd x = {
-		f y = y
-		f
-	}
-	print (incr 4 4 4)
-}

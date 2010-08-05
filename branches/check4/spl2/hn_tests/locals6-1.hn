@@ -1,7 +1,0 @@
-hnMain = {
-	tmp z = {
-		y = z
-		print y
-	}
-	tmp 5
-}

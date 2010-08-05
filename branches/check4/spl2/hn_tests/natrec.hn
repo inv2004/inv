@@ -1,1 +1,0 @@
-hnMain = print (natrec sum 0 1)

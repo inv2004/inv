@@ -1,4 +1,0 @@
-plusX x = {
-	f y = y
-	f
-}

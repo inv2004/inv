@@ -1,4 +1,0 @@
-hnMain = {
-	t2 x = print x
-	bind readnum t2
-}

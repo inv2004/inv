@@ -1,2 +1,0 @@
-out,str^concat 'hello',concat ' ' 'world'
-

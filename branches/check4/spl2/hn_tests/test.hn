@@ -1,1 +1,0 @@
-hnMain = print (incr 2)

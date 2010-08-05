@@ -1,5 +1,0 @@
-hnMain = {
-	x = udp_connect "localhost" 99
-	f x = print x
-	bind (udp_receive x) f
-}

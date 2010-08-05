@@ -1,3 +1,0 @@
-file : "Bar.ag"
-options : catas, semfuns, signatures, pretty, cycle
-

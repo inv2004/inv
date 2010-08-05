@@ -1,8 +1,0 @@
-hnMain = {
-	main x z = {
-		a = incr z
-		y = a
-		y
-	}
-	print (main 2 4)
-}

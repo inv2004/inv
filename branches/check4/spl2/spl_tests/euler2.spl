@@ -1,9 +1,0 @@
-out,to_string (
-	fib 1 0 4000000 0
-	fib:('x2*x1*x*s*
-		if (less n x) {_f n x2 x rn} {s}
-		n:sum x2 x1
-		rn:if (eq 0,mod n 2) {sum s n} {s}
-	)
-)
-
