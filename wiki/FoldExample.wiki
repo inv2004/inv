@@ -8,7 +8,8 @@ This is a motivating example of getting idiomatic C++ from a concise specificati
 
 A non-trivial list folding takes 3 logical lines of code in Haskell:
 {{{
-foldList l = foldl (\x y -> x * y + c) 4 l where c = 2}}}
+foldList l = foldl (\x y -> x * y + c) 4 l where c = 2
+}}}
 
 The logical units are two bindings and one lambda-abstraction.
 A puristic C++ solution conforming to the spirit of the C++ standard is in iter10.cpp. It takes 10 logical LOC. Curly braces, import declarations and empty lines are not counted and `c(_c)` is considered a separate LOC.
@@ -22,7 +23,7 @@ An idiomatic standard-conformant solution is listed in iter5.cpp. There are just
 
 Despite the longest line with “for” statement seems to be complicated, it’s a typical pattern that requires less brain power to comprehend than fold and map in functional code. Programmers are taught to recognize and generate such patterns mechanically early in the career.
 
-In the Haskell sample control flow makes dives into the fold and back into the lambda. I call such control flow “non-linear” and believe it complicates comprehension, requiring more effort from a programmer. The connections of x and y with the return value of the fold and with the elements of the list are also “non-linear”. In the purist C++ code there is an identical connection between std::accumulate and its f argument and between the two initializers and the class body.
+In the Haskell sample control flow makes dives into the fold and back into the lambda. I call such control flow “non-linear” and believe it complicates comprehension, requiring more effort from a programmer. The connections of `x` and `y` with the return value of the fold and with the elements of the list are also “non-linear”. In the purist C++ code there is an identical connection between `std::accumulate` and its `f` argument and between the two initializers and the class body.
 
-The purist code is not straightforward because F is not encapsulated and to refactor this code a programmer must check that F not used elsewhere. The idiomatic code, in contrast, can be completely comprehended by looking locally at the body of foldList.
-The purist code can be shortened to the same 6 LOC as the idiomatic example at the cost of the local anonymous structure trick (see iter6.cpp). We consider struct { … } var = {…} clause not two LOCs but one.
+The purist code is not straightforward because `F` is not encapsulated and to refactor this code a programmer must check that `F` not used elsewhere. The idiomatic code, in contrast, can be completely comprehended by looking locally at the body of `foldList`.
+The purist code can be shortened to the same 6 LOC as the idiomatic example at the cost of the local anonymous structure trick (see `iter6.cpp`). We consider `struct { … } var = {…}` clause not two LOCs but one.
