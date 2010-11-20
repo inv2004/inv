@@ -1,0 +1,16 @@
+#summary Compilation examples: Folding
+
+= Introduction =
+
+This is a motivating example of getting idiomatic C++ from a concise specification in a “functional” language. We tried several such examples and got some anecdotal evidence that our approach might work.
+
+= Details =
+
+A non-trivial list folding takes 3 logical lines of code in Haskell:
+{{{foldList l = foldl (\x y -> x * y + c) 4 l where c = 2}}}
+
+The logical units are two bindings and one lambda-abstraction.
+A puristic C++ solution conforming to the spirit of the C++ standard is in iter10.cpp. It takes 10 logical LOC. Curly braces, import declarations and empty lines are not counted and `c(_c)` is considered a separate LOC.
+
+The solution can be shortened by using tricks: {iter2.cpp} has 8 LOC, iter3.cpp has 7.
+An idiomatic standard-conformant solution is listed in iter5.cpp. There are just 6 LOC. Moreover, the code is:
