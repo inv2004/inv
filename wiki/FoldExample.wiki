@@ -151,14 +151,3 @@ foldList l = {
 }}}
 
 The code we get after the inlining can be trivially transferred into the production-quality C++ example.
-
-So, our compiler should do the following:
-
-  #	Parse this syntax - Parsec;
-  #	Typecheck the code to detect errors - UUAG;
-  #	Inline high-order functions and functions passed as parameters – HOOPL;
-  #	Typecheck again to infer the C++ types - UUAG.
-  #	Compile residual local functions into C++ classes generated for each scope - UUAG;
-  #	Pretty print C++ code – a pretty printing combinators library or by hand.
-
-This is our current approach to get human-maintainable generated C++. 
